@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>deleteCookieページ</title>
+        <script type="text/javascript">
+            window.onload =　function deleteCookie(){
+                console.log("削除")
+                console.log(document.cookie)
+                document.cookie = 'date=NULL;max-age=0';
+                console.log(document.cookie)
+                //alert("削除")
+            }
+        </script>
+    </head>
+    <body>
+        This is CookieTest/deleteCookie.html<br>
+        <a href="./">index</a><br>
+        <a href="./setCookie.html">setCookie</a>
+    </body>
+</html>
